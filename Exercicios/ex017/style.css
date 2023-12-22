@@ -1,0 +1,47 @@
+
+body{
+    height: 150vh;
+}
+.div{
+    width: 150px;
+    height: 150px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: verdana,sans-serif;
+
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+
+}
+.blue{
+    background-color: blue;
+}
+.red, .green, .blue{
+    color: whitesmoke;
+}
+.extra{
+    width: 300px;
+    height: 250px;
+    border: solid black;
+
+}
+
+.absolute{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+.relative{
+    position: relative;
+}
+.fixed{
+    position: fixed;
+    Z-index: 1;
+    top: 30px;
+}

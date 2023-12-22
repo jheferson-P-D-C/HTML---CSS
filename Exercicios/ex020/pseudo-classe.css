@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+body{
+    font: bold 1em Arial;
+    background-color: burlywood;
+}
+
+h1{
+    text-align: center;
+    background-color: white;
+    border: 1px solid brown;
+    border-radius: 20px;
+}
+.receita{
+    position: absolute;
+    left: 140px;
+    color: white;
+    background-color: brown;
+    width: 500px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+}
+.receita:hover{
+    position: absolute;
+    left: 140px;
+    color: brown;
+    background-color: white;
+    width: 500px;
+    height: 30px;
+    border: 1px solid brown;
+    border-radius: 20px;
+    text-align: center;
+}
+.Escondido, .tabela-receita{
+    display: none;
+}
+h2:hover > .Escondido {
+    display: block;
+    color: white;
+    background-color: brown;
+    width: 500px;
+    text-align: center;
+    border: 0.9px solid white;
+    border-radius: 20px;
+}
+h2:hover .tabela-receita{
+    display: block;
+    background-color: white;
+    border: 1px solid brown;
+    width: 500px;
+    text-align: center;
+    border-radius: 20px;
+}
+.ingredientes, .modo-de-preparo{
+    font: bolder 1em Arial;
+}

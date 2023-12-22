@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url(fontes/idroid.otf);
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --color1: rgb(0, 128, 51);
+    --color2: rgb(6, 56, 22);
+    --color3: aquamarine;
+    --color4: green;
+}
+body{
+    background-color: var(--color3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Cabecalho*/
+
+#cabecalho{
+    background-image: linear-gradient(180deg ,var(--color1), var(--color2));
+    height: 250px;
+    min-height: 150px;
+    text-align: center;
+
+}
+section.assunto{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.534);
+}
+.assunto > h1{
+    margin-bottom: 20px;
+    padding-top: 15px;
+   font-size: 30px;
+}
+nav.cabecalho-links{
+    background-color: var(--color2);
+    padding: 20px;
+    margin-top: 100px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.534);
+}
+
+a.external::after{
+    content: '\00A0\1F517'
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+.links:hover{
+    background-color: var(--color4);
+    transition-duration: 0.50s;
+    width: 10px;
+    border-radius: 20px;   
+}
+
+/*Conteudo*/
+
+main#conteudo{
+    background-color: white;
+  
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 30px;
+    height: 500px;
+   
+}
+main strong{
+    color: var(--color2);
+}
+main strong:hover{
+    padding: 2px;
+    border: 1px dashed var(--color2);
+    border-radius: 50px;
+}
+
+section.conteudo-historia{
+    margin: 20px;
+}
+.conteudo-historia > h2{
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: ;
+    color: var(--color4);
+}
+.conteudo-historia > p{
+    text-align: justify;
+}
+section.conteudo-versao{
+    margin: 20px;
+}
+.conteudo-versao > h2{
+    background-image: linear-gradient(to right, rgb(79, 220, 79), transparent);
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: ;
+    color: var(--color4);
+}
+.conteudo-versao > p{
+    text-align: justify;
+}

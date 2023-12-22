@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.jpg" type="image/jpg">
+        <img src="imagens/foto-g.jpg" alt="Imagem grande">
+    </picture>
+    <h2>Audio de fundo</h2>
+    <p>Clicando do botão play, você irar conseguir ouvir sua música de fundo.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/audio.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1>Colocando video - mp4 mpeg</h1>
+    
+    <ul>
+        <li><strong>Video de um ambiente de neve.</strong><ol>
+            <li>
+                <video width="500" poster="imagens/foto-p.jpg" controls autoplay>
+                    <source src="midia/neve.webm.webm" type="video/webm">
+                </video>
+            </li>
+        </ol></li>
+    </ul>
+</body>
+</html>

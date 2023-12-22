@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+
+        }
+        header{
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(121, 121, 121);
+            border: 2px solid darkgrey;
+            border-radius: 20px;
+            box-shadow: 0px  5px rgba(0, 0, 0, 0.249);
+            padding: 10px;
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        a:hover{ 
+            color: green;
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            border-radius: 10px 0px;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        article{
+            background-color: darkgrey;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+       .article-h2{
+            text-align: center;
+            background-color: grey;
+            border-radius: 20px;
+            padding: 5px;
+            margin: 20px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+        }
+        footer > p {
+            margin: 16px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: green;
+            border-radius: 50px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main id="Assuntos">
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2 class="article-h2">Notícias sobre o Brasil</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quo mollitia, ducimus vel ut cupiditate nesciunt natus accusamus! Consectetur, minima! Corporis totam, doloribus eaque natus harum nesciunt dignissimos soluta ex?
+                </p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer id="noticias">
+        <p>Desemvolvido pelo jheferson</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
