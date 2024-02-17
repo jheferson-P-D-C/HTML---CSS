@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+            position: relative;
+            background: url("https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/3160034/target-clipart-md.png") center center no-repeat ;
+            background-size: cover;
+            height: 95vh;
+            padding: 10px;
+            background-color: purple;
+        }
+        #conteudo{
+            background: url("https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/3160034/target-clipart-md.png") center center no-repeat;
+            background-size: cover;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            /* Para centralizar vertical é horizontal */
+
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .box{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: chartreuse;
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+            <div class="box" id="q1"></div>
+            <div class="box" id="q2"></div>
+            <div class="box" id="q3"></div>
+            <div class="box" id="q3"></div>
+            <div class="box" id="q3"></div>
+        </article>
+    </section>
+</body>
+</html>
